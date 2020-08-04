@@ -28,6 +28,12 @@
   --icon-color: #03dbfc;
 }
 
+h1 {
+  margin-top: 1px;
+  margin-bottom: 40px;
+
+}
+
 body {
   color: var(--text);
   background-color: var(--bg);
@@ -59,6 +65,7 @@ main {
   height: 3rem;
   position: fixed;
   right: 0;
+  margin-top: 14px;
   border-bottom-left-radius: 8px;
   transition: background 500ms ease-in-out;
   box-shadow: rgba(2, 8, 20, 0.3) 0px 0.175em 0.6em;
